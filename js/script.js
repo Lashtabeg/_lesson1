@@ -187,14 +187,18 @@ class Worker {
 // /===========================================================
 //Виводимо кнопку з текстом "Змінити" і два інпути, при натисканні на кнопку інпути
 //змінюються своїм введеним текстом
-const input1El = document.getElementById(`js-input1`);
-const input2El = document.getElementById(`js-input2`);
-const button = document.querySelector(`.btn`);
+// const input1El = document.getElementById(`js-input1`);
+// const input2El = document.getElementById(`js-input2`);
+// const button = document.querySelector(`.btn`);
 
-button.addEventListener(`click`, onBtnPress);
+// button.addEventListener(`click`, onBtnPress);
 
-function onBtnPress() {
-  const transferValue = input1El.value;
-  input1El.value = input2El.value;
-  input2El.value = transferValue;
-}
+// function onBtnPress() {
+//   const transferValue = input1El.value;
+//   input1El.value = input2El.value;
+//   input2El.value = transferValue;
+// }
+// /===========================================================
+console.log(`Hello World`);
+
+console.log("sum", 23 + 87);
