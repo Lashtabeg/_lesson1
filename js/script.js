@@ -136,20 +136,47 @@
 //працівника. Зарплата - це добуток (множення) ставки rate на кількість
 //відпрацьованих днів days. І метод getFullName() - ім'я та прізвище працівника.
 
-class Worker {
-  constructor(name, surname, rate, days) {
-    this.name = name;
-    this.surname = surname;
-    this.rate = rate;
-    this.days = days;
-  }
-  getSalary() {
-    return this.rate * this.days;
-  }
-  get getFullName() {
-    return `${this.name} ${this.surname}`;
-  }
-}
+// class Worker {
+// console.log("class Worker {
+//   constructor(name, surname, rate, days) {
+//     this.name = name;
+//     this.surname = surname;
+//     this.rate = rate;
+//     this.days = days;
+//   }
+//   getSalary() {
+//     return this.rate * this.days;
+//   }
+//   get getFullName() {
+//     return `${this.name} ${this.surname}`;
+//   }
+// }:", class Worker {
+//   constructor(name, surname, rate, days) {
+//     this.name = name;
+//     this.surname = surname;
+//     this.rate = rate;
+//     this.days = days;
+//   }
+//   getSalary() {
+//     return this.rate * this.days;
+//   }
+//   get getFullName() {
+//     return `${this.name} ${this.surname}`;
+//   }
+// })
+//   constructor(name, surname, rate, days) {
+//     this.name = name;
+//     this.surname = surname;
+//     this.rate = rate;
+//     this.days = days;
+//   }
+//   getSalary() {
+//     return this.rate * this.days;
+//   }
+//   get getFullName() {
+//     return `${this.name} ${this.surname}`;
+//   }
+// }
 
 // const worker = new Worker("Іван", "Іванов", 10, 31);
 
@@ -199,6 +226,3 @@ class Worker {
 //   input2El.value = transferValue;
 // }
 // /===========================================================
-console.log(`Hello World`);
-
-console.log("sum", 23 + 87);
